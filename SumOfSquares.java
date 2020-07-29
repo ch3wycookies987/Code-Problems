@@ -6,7 +6,7 @@ public class SumOfSquares
     public static int squareCalculator(int numberA, int numberB)
     {
         int sum = 0;
-        for(int i = numberA; i < numberB; i++)
+        for(int i = numberA; i <= numberB; i++)
         {
             sum += i*i;
         }
