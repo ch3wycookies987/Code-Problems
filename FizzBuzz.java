@@ -43,8 +43,12 @@ public class FizzBuzz
     public static void main(String[] args)
     {
         int number = 0;
-        while(number == 0)
+        while(number <= 0)
         {
+            if(number < 0)
+            {
+                System.out.println("Please enter a positive number!");
+            }
             number = enterNumber();
         }
         fizzBuzz(number);
